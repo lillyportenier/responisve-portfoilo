@@ -90,7 +90,7 @@ img{
 /* contact page specifics */
 
 .container input{
-    width: 100%;
+    width: 99%;
 }
 #message{
     padding-bottom:60px;
@@ -103,11 +103,16 @@ img{
     margin-top: 15px;
         
 }
+.input-format{
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0px 5px 5px;
+}
 /* portfoloio styling */
 .container img{
     width: 200px;
     height: 150px;
 }
+
 .image1{
 }
 
@@ -148,7 +153,18 @@ footer{
 }
 }
 @media (max-width : 768px) {
+.container{
+    margin: 30px 20px 100px 20px;
+    min-width: 685px;
+    padding: 20px 20px 20px 20px;
+}
+.container img{
+    align: center;
+    padding: 15px 30px 10px 30px;
+    width: 250px;
+    height: 200px;
 
+}
 }
 @media (max-width: 640px) {
 
