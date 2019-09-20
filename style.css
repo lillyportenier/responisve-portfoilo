@@ -144,7 +144,7 @@ footer{
 @media (max-width: 980px) {
 .container{
     max-width: 500px;
-    margin: 40px 500px 40px 40px;
+    margin: 40px 500px 100px 40px;
     padding: 20px 20px 10px 20px;
 }
 .container img{
@@ -167,5 +167,39 @@ footer{
 }
 }
 @media (max-width: 640px) {
+nav{
+    font-size:15px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: solid 3px #6666;
+    clear: inherit;
+
+}
+.container{
+    min-width:350px;
+    min-height: 600px;
+    text-align: justify;
+    margin: 30px;
+    margin-top: 70px;
+}
+#profile{
+    float: none;
+    width: 400px;
+}
+#branding{
+    width: 100%;
+    text-align: center;
+}
+header{
+    position: static;
+}
+ #boop{
+    width: 100%;
+}
+ul{
+    display: inline-block;
+}
 
 }
